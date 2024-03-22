@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Start", "Start", "{1A57560D-7EE8-4F88-A322-489D0978B3DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Finish", "Finish", "{5495B4E0-6266-4174-8CFC-7BA7C7380B76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01.F7Feather", "Start\Day01.F7Feather\Day01.F7Feather.csproj", "{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01.RasPi", "Start\Day01.RasPi\Day01.RasPi.csproj", "{669C9720-B782-4C0E-B42E-3E189F48AE4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01.RasPi", "Finish\Day01.RasPi\Day01.RasPi.csproj", "{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01.F7Feather", "Finish\Day01.F7Feather\Day01.F7Feather.csproj", "{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAC8AD42-A4E4-4C67-9121-172D7EA9838A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{669C9720-B782-4C0E-B42E-3E189F48AE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669C9720-B782-4C0E-B42E-3E189F48AE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669C9720-B782-4C0E-B42E-3E189F48AE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669C9720-B782-4C0E-B42E-3E189F48AE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95EE8C19-7F9E-4EB2-800C-9D3FA72E8B99} = {1A57560D-7EE8-4F88-A322-489D0978B3DE}
+		{669C9720-B782-4C0E-B42E-3E189F48AE4D} = {1A57560D-7EE8-4F88-A322-489D0978B3DE}
+		{0C35A238-7DCD-4549-A9DC-FFA4E3B8B39B} = {5495B4E0-6266-4174-8CFC-7BA7C7380B76}
+		{D25FB119-E8D4-4E9B-8D7D-B52CA208D03A} = {5495B4E0-6266-4174-8CFC-7BA7C7380B76}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9D40360-7231-4AE1-91F7-FA60822644A9}
+	EndGlobalSection
+EndGlobal
